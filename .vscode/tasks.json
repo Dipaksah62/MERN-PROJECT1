@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "cms-ui",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - cms-ui",
+      "detail": "nodemon ."
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "front-ui",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - front-ui",
+      "detail": "nodemon ."
+    }
+    
+  ]
+}

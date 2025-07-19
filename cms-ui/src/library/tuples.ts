@@ -1,0 +1,1 @@
+export type SelectOption = [string, any]

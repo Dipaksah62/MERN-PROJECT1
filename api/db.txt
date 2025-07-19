@@ -1,0 +1,55 @@
+users
+- name
+- email
+- password
+- phone
+- address
+- role
+    - Admin
+    - Staff
+    - Customer
+status
+
+categories
+- name
+- status
+
+brands
+- name
+- status
+
+products
+- name
+- price
+- discountedPrice
+- description
+- summary
+- categoryId
+- brandId
+- images
+- status
+- featured
+
+reviews
+- productId
+- userId
+- comment
+- rating
+
+orders
+- userId
+- status
+    - Processing
+    - Confirmed
+    - Shipping
+    - Delivered
+    - Cancelled
+
+details
+- orderId
+- productId
+- qty
+- price
+- total
+
+
